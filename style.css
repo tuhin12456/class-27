@@ -1,0 +1,247 @@
+/* Default Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fixed-width {
+
+    width: 1270px;
+    margin: auto;
+
+}
+/*header*/
+.header{
+ background-color: rgba(11, 189, 154,.9);
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left a {
+    width: 210px;
+    height: auto;
+    color: #fff;
+    font-size: 26px;
+    display: inline-block;
+    line-height: 77px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 77px;
+    transition: .4s;
+    text-transform: uppercase;
+    color: #eeeeee;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.header-right ul li a:hover{
+    color: #032E1D;
+}
+/*  Banner section */
+.banner{
+    background: url(https://i.ibb.co/bB1d0Dr/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner-content h1 {
+    font-size: 55px;
+    text-transform:capitalize;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.banner-content h2 {
+    color: rgba(255,255,255,0.8);
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.banner-content a{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,0.8);
+    margin: 0 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    transition: all 0.5s;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.banner-content a:hover{
+    background-color: #032E1D;
+    color: #fff;
+    border:none;
+}
+/* Service Section */
+.service {
+    background-color: #fff;
+    padding: 80px 0px;
+}
+.section-title h2{
+    line-height: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #555;
+    
+}
+.section-title p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color:#777;
+    margin-bottom: 55px;
+    margin-top:33px;
+}
+.service-item {
+    width: 20%;
+    float: left;
+    padding: 72px 10px;
+    box-sizing: border-box;
+    background: ;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.service-item span {
+    font-size: 40px;
+    color: #0dbf9b;
+}
+.service-item h3 {
+    font-size: 20px;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-top:25px;
+    padding-bottom:10px;
+
+}
+.service-item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color:#777;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*About Us*/
+.about-us{
+    /* background-color: #F6F6F6; */
+    padding: 80px 0px;
+    border-top:2px solid #0dbf9b;
+    /* box-shadow: 0px 1px 3px #032E1D; */
+}
+.about-left{
+    float: left;
+    width:45%;
+    box-sizing: border-box;
+}
+.about-right{
+    float: right;
+    width:51%;
+}
+.about-right h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #666;
+    margin-bottom:10px;
+    margin-top:10px;
+    font-weight: 500;
+}
+.about-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color:#777;
+    margin-bottom:20px;
+}
+/* contact-us */
+.contact-us{
+    background-color: #F6F6F6;
+    padding: 80px 0px;
+
+}
+.fix-cont{
+    width:80%;
+    margin:auto;
+}
+.contact-section{
+    float: left;
+    width: 33%;
+}
+.contact-section i{
+    font-size: 15px;
+    color: #0dbf9b;
+    padding:  10px;
+	box-sizing: border-box;
+}
+.contact-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color:#777;
+}
+/* footer */
+.footer-top{
+ background-color: #0dbf9b;
+ padding: 20px 0px;
+}
+.social ul li{
+    display: inline-block;
+}
+.social ul li a{
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.footer-bottom{
+ background-color: #222222;
+}
+.copyright{
+    padding:15px 0px;
+}
+.copyright p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color:#555;
+}
+
+
+

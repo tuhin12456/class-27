@@ -1,0 +1,78 @@
+@media (max-width:1300px) {
+    .fixed-width {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .service-item {
+        width: 25%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .about-left {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    .about-right {
+        width: 100%;
+        margin-top: 25px;
+    }
+}
+@media (max-width: 992px){
+    .service-item {
+        width: 50%;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 30px 5px;
+    }
+}
+@media (max-width:768px){
+    .header-right {
+        position: relative;
+    }
+    span.hamba-manu {
+        position: absolute;
+        right: 14px;
+        top: 29px;
+        font-size: 25px;
+        pointer-events: none;
+        color: #fff;
+    }
+    .hamba-check {
+        position: absolute;
+        right: 10px;
+        top: 26px;
+        width: 30px;
+        height: 30px;
+        opacity: 0;
+    }
+    .hamba-check:checked ~ ul {
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+    }
+    .header-right ul {
+        margin-top: 55px;
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+    .header-right ul li {
+        display: block;
+    }
+    .header-right ul li a {
+        line-height: 55px;
+    }
+.contact-section {
+    width: 100%;
+    margin-top: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .service-item {
+        width: 100%;
+    }
+}
