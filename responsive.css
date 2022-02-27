@@ -28,6 +28,12 @@
         padding: 30px 5px;
     }
 }
+span.hamba-manu {
+    display: none;
+}
+.hamba-check {
+    display: none;
+}
 @media (max-width:768px){
     .header-right {
         position: relative;
@@ -39,6 +45,7 @@
         font-size: 25px;
         pointer-events: none;
         color: #fff;
+        display: block;
     }
     .hamba-check {
         position: absolute;
@@ -47,6 +54,7 @@
         width: 30px;
         height: 30px;
         opacity: 0;
+        display: block;
     }
     .hamba-check:checked ~ ul {
         visibility: visible;
